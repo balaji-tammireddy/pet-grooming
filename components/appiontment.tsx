@@ -8,24 +8,24 @@ import { Textarea } from "./ui/textarea";
 export default function Appiontment(){
     const [date, setDate] = React.useState<Date | undefined>(new Date())
     return <div className="w-11/12 rounded-sm shadow-sm  border-2 border-gray-100 bg-gray-100 flex flex-col justify-around items-center gap-5 p-5">
-        <div className="font-bold text-5xl">
+        <div className="font-bold text-3xl lg:text-5xl text-center">
         Schedule an Appointment
         </div>
-        <div className="text-xl font-light">
+        <div className="text-xl font-light text-center">
         Fill out the form below to schedule your pets next grooming appointment.
         </div>
-        <div className="w-1/3 flex flex-col justify-center items-center">
-            <div className=" flex  justify-around w-full">
-                <div className="flex flex-col justify-center items-center gap-2 text-sm">Name
+        <div className=" w-full flex flex-col justify-center items-center">
+            <div className=" flex flex-col   justify-around w-full items-center">
+                <div className="w-2/3 md:w-[300px] flex flex-col justify-center items-center gap-2 text-sm">Name
                     <Input className="bg-white" type="text" placeholder="name"></Input>
                 </div>
-                <div  className="flex flex-col justify-center items-center gap-2 text-sm">Email
+                <div  className="w-2/3 md:w-[300px] flex flex-col justify-center items-center gap-2 text-sm">Email
                     <Input className="bg-white" type="email" placeholder="email"></Input>
                 </div>
             </div>
            
         </div>
-        <div className="text-sm font-light w-1/4 flex flex-col justify-center items-center gap-2">
+        <div className="text-sm font-light w-2/3 md:w-[300px] flex flex-col justify-center items-center gap-2">
             Pets Name
         <Input type="text" placeholder="pets name" className="bg-white"></Input>
             </div>
@@ -42,6 +42,6 @@ export default function Appiontment(){
                 additional notes
                 <Textarea placeholder="Type your message here." className="bg-white  w-[300px]"></Textarea>
             </div>
-            <Button className="w-1/4">Schedule Appointment</Button>
+            <Button className="">Schedule Appointment</Button>
     </div>
 }

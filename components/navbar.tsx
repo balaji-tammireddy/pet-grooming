@@ -9,7 +9,7 @@ export default function Navbar(){
             Paw-fect Pups
             </div>
             </div>
-            <div className=" w-1/3 h-10 flex justify-around items-center">
+            <div className=" w-1/3 h-10 hidden lg:flex justify-around items-center">
                 <div className="hover:underline  duration-100 cursor-pointer">
                      Services
                 </div>
