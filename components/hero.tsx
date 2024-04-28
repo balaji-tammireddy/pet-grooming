@@ -1,7 +1,7 @@
 import { Button } from "./ui/button";
 
 export default function Hero(){
-    return <div className="w-11/12 rounded-sm shadow-sm min-h-[500px] border-2 border-gray-100 flex flex-col lg:flex-row justify-center items-center">
+    return <div className="w-11/12 rounded-sm shadow-sm min-h-[500px] border-2 border-gray-100 flex flex-col lg:flex-row justify-center items-center dark:bg-zinc-900 dark:text-gray-100 dark:border-zinc-800">
         <div className="w-7/12 h-full m-3  flex gap-10 flex-col justify-center items-center">
         <div className="text-5xl lg:text-7xl font-bold text-center">
         Unleash Your Pets Beauty

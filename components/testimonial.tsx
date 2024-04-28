@@ -1,7 +1,7 @@
 import Testimonailcard from "./testimonialcard";
 
 export default function Testimonials(props:any){
-    return <div className="w-11/12 rounded-sm shadow-sm  border-2 border-gray-100 flex flex-col justify-around items-center gap-5 p-5">
+    return <div className="w-11/12 rounded-sm shadow-sm  border-2 border-gray-100 flex flex-col justify-around items-center gap-5 p-5 dark:bg-zinc-900 dark:text-gray-100 dark:border-zinc-800">
         <div className="text-center font-bold text-3xl lg:text-5xl">
         What Our Customers Say
         </div>

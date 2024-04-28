@@ -8,7 +8,7 @@ import { Toaster, toast } from "sonner";
 
 export default function Appiontment(){
     const [date, setDate] = React.useState<Date | undefined>(new Date())
-    return <div className="w-11/12 rounded-sm shadow-sm  border-2 border-gray-100 bg-gray-100 flex flex-col justify-around items-center gap-5 p-5">
+    return <div className="w-11/12 rounded-sm shadow-sm  border-2 border-gray-100 dark:border-zinc-800 bg-gray-100 flex flex-col justify-around items-center gap-5 p-5 dark:bg-zinc-900 dark:text-gray-100">
         <div className="font-bold text-3xl lg:text-5xl text-center">
         Schedule an Appointment
         </div>

@@ -2,7 +2,7 @@ import { LuDog } from "react-icons/lu";
 import { MdOutlinePets, MdPets } from "react-icons/md";
 
 export default function Navbar(){
-    return <div className="w-screen bg-white border-b-2 border-gray-100 shadow-sm h-16 flex justify-between items-center">
+    return <div className="w-full bg-white border-b-2 border-gray-100 shadow-sm h-16 flex justify-between items-center dark:bg-zinc-900 dark:text-gray-100 dark:border-zinc-800">
         <div className=" flex justify-center items-center">
             <LuDog className="text-4xl  "></LuDog>
             <div className="font-serif text-xl  pl-2">
