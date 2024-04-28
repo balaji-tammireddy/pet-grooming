@@ -12,7 +12,7 @@ export default function Appiontment(){
         Schedule an Appointment
         </div>
         <div className="text-xl font-light">
-        Fill out the form below to schedule your pet's next grooming appointment.
+        Fill out the form below to schedule your pets next grooming appointment.
         </div>
         <div className="w-1/3 flex flex-col justify-center items-center">
             <div className=" flex  justify-around w-full">
@@ -26,7 +26,7 @@ export default function Appiontment(){
            
         </div>
         <div className="text-sm font-light w-1/4 flex flex-col justify-center items-center gap-2">
-            Pet's Name
+            Pets Name
         <Input type="text" placeholder="pets name" className="bg-white"></Input>
             </div>
             <div className=" flex flex-col justify-center items-center gap-2">

@@ -4,7 +4,7 @@ export default function Hero(){
     return <div className="w-11/12 rounded-sm shadow-sm h-[500px] border-2 border-gray-100 flex">
         <div className="w-7/12 h-full m-3  flex gap-10 flex-col justify-center items-center">
         <div className="text-7xl font-bold">
-        Unleash Your Pet's Beauty
+        Unleash Your Pets Beauty
         </div>
         <div className="text-lg">
         Experience the ultimate in pet grooming with our expert team. From full-service spa treatments to quick touch-ups, we have everything your furry friend needs to look and feel their best.
