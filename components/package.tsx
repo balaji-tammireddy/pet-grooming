@@ -8,7 +8,7 @@ export default function Package(props: any) {
         <div className=" flex justify-center items-center ">
             <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3  w-full  gap-2">
                 {props.services.map((service: any) => {
-                    return <Packagecard id={service.id} title={service.name} desc={service.description} price={service.price}></Packagecard>
+                    return <Packagecard key={service.id} id={service.id} title={service.name} desc={service.description} price={service.price}></Packagecard>
                 })}
             </div>
         </div>
