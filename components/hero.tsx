@@ -1,7 +1,7 @@
 import { Button } from "./ui/button";
 
 export default function Hero(){
-    return <div className="w-11/12 rounded-sm shadow-sm min-h-[500px] border-2 border-gray-100 flex flex-col lg:flex-row justify-center items-center dark:bg-zinc-900 dark:text-gray-100 dark:border-zinc-800">
+    return <div id="hero" className="w-11/12 rounded-sm shadow-sm min-h-[500px] border-2 border-gray-100 flex flex-col lg:flex-row justify-center items-center dark:bg-zinc-900 dark:text-gray-100 dark:border-zinc-800">
            <div className="lg:w-5/12 h-full m-3 flex  justify-center items-center">
         <img src="https://i.pinimg.com/564x/7f/26/e7/7f26e71b2c84e6b16d4f6d3fd8a58bca.jpg" className="h-96 rounded-sm ">
 
