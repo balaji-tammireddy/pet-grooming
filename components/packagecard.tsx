@@ -3,14 +3,7 @@ import axios from "axios";
 import { Button } from "./ui/button";
 import { useState } from "react";
 import { toast } from "sonner";
-import {
-    Sheet,
-    SheetContent,
-    SheetDescription,
-    SheetHeader,
-    SheetTitle,
-    SheetTrigger,
-} from "@/components/ui/sheet"
+
 import { Input } from "./ui/input";
 
 export default function Packagecard(props: any) {
