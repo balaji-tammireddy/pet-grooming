@@ -37,6 +37,7 @@ model booking {
   userId    String
   date      String
   time String
+  paid Boolean @default(false)
   address   String
   created   DateTime @default(now())
   status    String

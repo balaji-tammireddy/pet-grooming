@@ -29,6 +29,31 @@ export async function POST(req: NextRequest) {
         return NextResponse.json({ error: error }, { status: 500 })
     }
 }
+export async function PUT(req: NextRequest) {
+    try {
+        const body = await req.json()
+        console.log(body)
+        if (!body.id) {
+            return NextResponse.json({
+                message: "Id is empty"
+            })
+        }
+        await prisma.booking.update({
+            where: {
+                id: body.id
+            },
+            data: {
+                paid: true
+            }
+        })
+        return NextResponse.json({
+            success: true,
+            message: "Booking updated successfully"
+        })
+    } catch (error) {
+        return NextResponse.json({ error: error }, { status: 500 })
+    }
+}
 export async function PATCH(req: NextRequest) {
     try {
         const body = await req.json()
